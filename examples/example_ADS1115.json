@@ -1,0 +1,41 @@
+[
+  {
+    "waitTimeButtons": 0.08,
+    "buttonControllers": [],
+    "waitTimeAxis": 0.08,
+    "axisControllers": [
+      {
+        "name": "Left axis controller",
+        "type": "ADS1115",
+        "options": {
+          "gain": 1,
+          "address": "0x48",
+          "busnum": 1,
+          "calibration_max": 36241,
+          "calibration_min": 10,
+          "calibration_threshold": 0.08
+        },
+        "mapping": [
+          "ABS_X",
+          "ABS_Y"
+        ]
+      },
+      {
+        "name": "Right axis controller",
+        "type": "ADS1115",
+        "options": {
+          "gain": 1,
+          "address": "0x49",
+          "busnum": 1,
+          "calibration_max": 36241,
+          "calibration_min": 10,
+          "calibration_threshold": 0.08
+        },
+        "mapping": [
+          "ABS_RX",
+          "ABS_RY"
+        ]
+      }
+    ]
+  }
+]

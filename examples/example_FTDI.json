@@ -1,0 +1,44 @@
+[
+  {
+    "waitTimeButtons": 0.08,
+    "buttonControllers": [
+      {
+        "name": "Left button controller",
+        "type": "FTDI",
+        "options": {
+          "ftdi_url": "ftdi://ftdi:2232:FT37N0KU/1"
+        },
+        "mapping": [
+          "BTN_SELECT",
+          "BTN_RIGHT",
+          "BTN_FORWARD",
+          "BTN_LEFT",
+          "BTN_BACK",
+          "BTN_THUMBL",
+          "BTN_TL",
+          "BTN_TL2"
+        ]
+      },
+      {
+        "name": "Right button controller",
+        "type": "FTDI",
+        "options": {
+          "ftdi_url": "ftdi://ftdi:2232:FT37N0KU/2"
+        },
+        "mapping": [
+          "BTN_START",
+          "BTN_A",
+          "BTN_X",
+          "BTN_Y",
+          "BTN_B",
+          "BTN_THUMBR",
+          "BTN_TR",
+          "BTN_TR2"
+        ]
+      }
+    ],
+    "waitTimeAxis": 0.08,
+    "axisControllers": [
+    ]
+  }
+]

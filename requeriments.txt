@@ -1,0 +1,12 @@
+# Joyspyck core
+python-uinput==0.11.2
+
+# ADS1115 support
+adafruit-circuitpython-ads1x15==2.1.1
+
+# MCP23017 support
+adafruit-circuitpython-mcp230xx==2.2.0
+
+# FTDI support
+pyftdi==0.42.2
+

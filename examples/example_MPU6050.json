@@ -1,0 +1,23 @@
+[
+  {
+    "waitTimeButtons": 0.08,
+    "buttonControllers": [],
+    "waitTimeAxis": 0.08,
+    "axisControllers": [
+      {
+        "name": "Accel",
+        "type": "MPU6050",
+        "options": {
+          "address": "0x68",
+          "busnum": 1,
+          "calibration_threshold": 0.05
+        },
+        "mapping": [
+          "ABS_X",
+          "ABS_Y",
+	  "ABS_RY" 
+        ]
+      }
+    ]
+  }
+]
